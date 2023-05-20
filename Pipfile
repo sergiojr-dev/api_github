@@ -10,10 +10,11 @@ idna = "==3.4"
 requests = "*"
 urllib3 = "==2.0.2"
 flake8 = "*"
+pytest = "*"
 coverage = "*"
 pytest-cov = "*"
 pytest-mock = "*"
-pytest = "*"
+
 
 [dev-packages]
 
