@@ -2,7 +2,11 @@ from unittest.mock import Mock
 
 import pytest
 
+
 from lib_github import avatar
+
+
+
 
 
 @pytest.fixture
@@ -18,10 +22,10 @@ def avatar_url(mocker):
     return url
 
 
-def test_buscar_avatar(avatar_url):
-    url = avatar.avatar('sergio0006')
-    assert avatar_url == url
 
+def test_buscar_avatar(avatar_url):
+    url = avatar.avatar('sergiojr-dev')
+    assert avatar_url == url
 
 
 
