@@ -13,6 +13,7 @@ flake8 = "*"
 coverage = "*"
 pytest-cov = "*"
 pytest-mock = "*"
+pytest = "*"
 
 [dev-packages]
 
