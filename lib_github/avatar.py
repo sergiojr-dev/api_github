@@ -9,9 +9,8 @@ def avatar(usuario):
     """
 
     url = f'https://api.github.com/users/{usuario}'
-    resposta = requests.get(url)
-    return resposta.json()['avatar_url']
+    resp = requests.get(url)
+    return resp.json()['avatar_url']
 
 
-if __name__ == '__main__':
-    print(avatar('sergiojr-dev'))
+
